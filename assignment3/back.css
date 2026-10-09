@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fcf8f2;
+    color: #333333;
+    line-height: 1.6;
+    width: 100%;
+}
+
+
+.header-section {
+    text-align: center;
+    padding: 25%px 15%px;
+    background-color: #8d5b4c;
+    color: #ffffff;
+    margin-bottom: 30%px;
+    width: 100%;
+}
+.logo_img {
+    width: 80%px;
+    max-width: 100%px;
+    height: 50%px;
+    object-fit: cover;
+    border-radius: 8%px;
+    border: 3%px solid #d7ccc8;
+    display: block;
+    margin: 0 auto 25%px auto; 
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto 40%px auto;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20%px;
+    align-items: center;
+    margin-bottom: 30%px;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0d6cc;
+    border-radius: 8px;
+    padding: 25%px;
+    margin-bottom: 25%px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #8d5b4c;
+    margin-bottom: 15%px;
+    border-bottom: 2%px solid #efebe9;
+    padding-bottom: 8%px;
+}
+
+
+.ingredients-card {
+    margin-bottom: 25%px;
+}
+
+.ingredients-list {
+    padding-left: 20%px;
+}
+
+.ingredients-list li {
+    margin-bottom: 8%8cap;
+}
+
+.steps-card {
+    margin-bottom: 25%px;
+}
+
+.steps-list {
+    padding-left: 20%px;
+}
+
+.steps-list > li {
+    margin-bottom: 24%px;
+    font-size: 15%px;
+}
+
+
+.step-image-box {
+    margin-top: 10%px;
+    margin-bottom: 10%px;
+}
+
+.step-img {
+    width: 80%;
+    max-width:100%px;                
+    border-radius: 6%px;
+    border: 2%px solid #d7ccc8;
+    display: block;
+}
+
+
+.reference {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 12px;
+    background-color: #efebe9;
+    border-radius: 6px;
+}
+
+.reference a {
+    color: #8d5b4c;
+    font-weight: bold;
+    text-decoration: underline;
+}

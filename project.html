@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jakkarin Tubthai</title>
+    <!-- ใช้ External CSS ตัวเดียวกันตามเกณฑ์ของโจทย์ -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="project.html" class="active">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="project-header">
+            <h2>My Projects & Future Work</h2>
+            <p>รวมผลงานโปรเจกต์ในชั้นเรียนและแนวคิด Senior Project ที่วางแผนจะพัฒนา</p>
+        </section>
+
+        <section class="project-list">
+            <!-- โปรเจกต์ที่ 1: ดึงงาน Assignment 10 มาใส่ -->
+            <div class="project-card">
+                <h3>1. Real-time Multi-user Chat Application</h3>
+                <p class="tag">Node.js / Express / Socket.io</p>
+                <p>ระบบห้องแชทแบบเรียลไทม์ที่พัฒนาด้วย Node.js และ Socket.io รองรับการส่งข้อมูลระหว่างผู้ใช้หลายคนพร้อมกันแบบทันที และมีระบบอ่าน-บันทึกประวัติการแชทลงในไฟล์ JSON ผ่าน REST API</p>
+            </div>
+
+            <!-- โปรเจกต์ที่ 2: แนวคิด Senior Project -->
+            <div class="project-card">
+                <h3>2. Senior Project Idea: Web-Based Interactive Learning Media</h3>
+                <p class="tag">Interactive Web Development</p>
+                <p>แนวคิดโครงงานปริญญานิพนธ์ พัฒนาเว็บไซต์สื่อการเรียนรู้เชิงปฏิสัมพันธ์ (Interactive Learning) เพื่อส่งเสริมความเข้าใจในด้านการคิดเชิงคำนวณและตรรกะสำหรับผู้เริ่มต้น</p>
+            </div>
+        </section>
+
+        <!-- ปุ่มลิงก์เชื่อมโยงกลับไปหน้า index.html ตามเกณฑ์ -->
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="index.html" class="back-btn">&larr; กลับไปยังหน้า Portfolio</a>
+        </div>
+
+        <footer class="footer">
+            <p><strong>References & Credits:</strong> MDT312 Web Programming Course Materials.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

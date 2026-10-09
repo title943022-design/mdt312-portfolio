@@ -1,0 +1,13 @@
+.logo-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+.border_bottom {
+    width: 80%;                 
+    margin: 20px auto;         
+    padding-bottom: 15px;          
+    border-bottom: 3px solid #d32f2f; 
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jakkarin Tubthai</title>
+    <!-- ลิงก์ไปยัง External CSS ตามข้อกำหนด -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- แถบนำทางด้านบน (Navbar) -->
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Portfolio</a></li>
+            <li><a href="project.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- ส่วนข้อมูลส่วนตัว -->
+        <section class="profile-card">
+            <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            <h1>จักรรินทร์ ทับไทย (Jakkarin Tubthai)</h1>
+            <p class="subtitle">นักศึกษาสาขาวิชาเทคโนโลยีมีเดีย (MDT312)</p>
+
+            <div class="info-group">
+                <h3>งานอดิเรก</h3>
+                <p>เล่นเกม, ฟังเพลง</p>
+            </div>
+
+            <div class="info-group">
+                <h3>ทักษะความสามารถ</h3>
+                <p>HTML5, CSS3, JavaScript, Node.js, Express, Socket.io, Git</p>
+            </div>
+
+            <div class="info-group">
+                <h3>ความสนใจ</h3>
+                <p>Game Development, Interactive Media</p>
+            </div>
+
+            <div class="social-links">
+                <h3>ช่องทางการติดต่อ</h3>
+                <a href="https://www.facebook.com/JakkarinTubthai" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/titleth2025/" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+        <!-- ส่วนลิงก์ผลงาน Assignment 3 - 7 ตามโฟลเดอร์ใหม่ -->
+        <section class="assignments-section">
+            <h2>Course Assignments (MDT312)</h2>
+           <div class="assignment-grid">
+                <a href="assignment3/recipe.html" class="card-link" target="_blank">
+                    <h4>Assignment 3</h4>
+                    <p>Cinnamon Roll Wreath with Apples</p>
+                </a>
+
+                <a href="assignment4/assignment4/recipe.html" class="card-link" target="_blank">
+                    <h4>Assignment 4</h4>
+                    <p>Pizza Dip Recipe</p>
+                </a>
+
+                <a href="assignment5/assignment5/index.html" class="card-link" target="_blank">
+                    <h4>Assignment 5</h4>
+                    <p>Interactive Blog / Forum</p>
+                </a>
+
+                <!-- Assignment 6: มีลิงก์ทั้ง Register และ Login ครบถ้วน -->
+                <div class="card-link combo-card">
+                    <h4>Assignment 6</h4>
+                    <p>Register and Login System</p>
+                    <div class="sub-links">
+                        <a href="assignment6/assignment-6/register.html" target="_blank">Register</a>
+                        <span>|</span>
+                        <a href="assignment6/assignment-6/login.html" target="_blank">Login</a>
+                    </div>
+                </div>
+
+                <a href="assignment7/index.html" class="card-link" target="_blank">
+                    <h4>Assignment 7</h4>
+                    <p>Square Game (DOM Animation)</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- แหล่งอ้างอิงเพื่อป้องกันการหักคะแนน -->
+        <footer class="footer">
+            <p><strong>References & Credits:</strong> Layout and styling inspirations from MDN Web Docs & Google Fonts.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
